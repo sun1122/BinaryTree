@@ -17,6 +17,8 @@ public class BinaryTreePreorderTraversal {
 	    //节点放进栈中保存
 	    stack.add(root);
 	    
+	    
+	    
 	    //执行出栈
 	    while (!stack.isEmpty()) {
 	    	//检索并移除此列表的最后一个元素，或返回 null如果这个列表是空的。
